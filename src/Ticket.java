@@ -22,7 +22,7 @@ public class Ticket extends Block{
     }
 
     public String printUsedNumbers(){
-        int[] usedNumbers = new int[1];
+        int[] usedNumbers = {0};
         for(int i = 0; i < ticket.length; i++){
             boolean repeated;
             int[] block = ticket[i].getNumbers();
